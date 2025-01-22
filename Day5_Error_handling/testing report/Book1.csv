@@ -1,0 +1,10 @@
+,,,,,,
+,Report Analysis,,,,,
+,,,,,,
+,,,,,,
+Test Cse ID,Test Case Description,Test Steps,Expected Result,Actual Result  ,Secuity-Level ,Remarks
+,,,,,,
+TC0001,validate product listing page,open project page > verify product page,Product displayed correctly ,product displayed correctly ,low,no issue found
+TC0002,test api error handling ,Disconnect api > refresh pages ,show frontend ui with error message,Error message shown ,medium ,handled
+TC0003,cart functionality,add to cart > verify cart contents,latouts adjusts properly to screen size,cart updated whe expected,medium ,successful
+TC0004,ensure responsiveness on mobiles ,responssive layouts working as designed ,layouts adjust properly to screen size  ,responsive layouts working as intented,high,successfully work
